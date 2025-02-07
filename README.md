@@ -58,14 +58,14 @@ MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
 -p 8081:8081 \
 &nbsp;
 #### inspect-frontend
-no envs \
+no envs 
 - (example config) \
 -p 8080:8080 \
 &nbsp;
 #### stock-market-data-collector
 POLYGON_API_TOKEN &rarr; collects stock data from polygon.io \
 MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
-D_SERVER_URI &rarr; this is the uri of the discovery server \
+D_SERVER_URI &rarr; this is the uri of the discovery server 
 
 - (example config) \
 --env=POLYGON_API_TOKEN=123 \
@@ -76,7 +76,7 @@ D_SERVER_URI &rarr; this is the uri of the discovery server \
 
 #### stock-market-data-processing
 MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
-D_SERVER_URI &rarr; this is the uri of the discovery server \
+D_SERVER_URI &rarr; this is the uri of the discovery server 
 
 - (example config) \
 --env=MONGO_DB_HOST=172.17.0.3 \
@@ -85,9 +85,9 @@ D_SERVER_URI &rarr; this is the uri of the discovery server \
 &nbsp;
 
 #### discovery
-no envs \
+no envs 
 - (example config) \
--p 8761:8761 \
+-p 8761:8761 
 
 #### MongoDB
 you need to pull: [mongodb/mongodb-community-server:6.0.16-ubi9](https://hub.docker.com/layers/mongodb/mongodb-community-server/6.0.19-ubi8/images/sha256-9f85635c9b1d1506ff0a3b4a91ac16136c8e37e33797f8427e33a8341c261487)
