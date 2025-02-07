@@ -43,19 +43,19 @@ cluster multiple topics to one umbrella term and track the sentiment over time
 ### Setup
 
 #### inspect-backend 
-CORS_PATTERN &rarr; allowes frontend to request data from backend
-CRED_USER &rarr; login user (if activated)
-CRED_PASS &rarr; login pass (if activated)
-HUGGINGFACE_TOKEN &rarr; token for requesting sentiment analysis, NER, ...
-MONGO_DB_HOST &rarr; mongo db is accessed via this uri
+CORS_PATTERN &rarr; allowes frontend to request data from backend \
+CRED_USER &rarr; login user (if activated) \
+CRED_PASS &rarr; login pass (if activated) \
+HUGGINGFACE_TOKEN &rarr; token for requesting sentiment analysis, NER, ... \
+MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
 &nbsp;
-- (example config)
---env=CORS_PATTERN=http://localhost:8080 
---env=CRED_PASS=123 
---env=CRED_USER=ft 
---env=HUGGINGFACE_TOKEN=1231123 
---env=MONGO_DB_HOST=172.17.0.2 
--p 8081:8081 
+- (example config) \
+--env=CORS_PATTERN=http://localhost:8080\
+--env=CRED_PASS=123\
+--env=CRED_USER=ft\ 
+--env=HUGGINGFACE_TOKEN=1231123\ 
+--env=MONGO_DB_HOST=172.17.0.2\ 
+-p 8081:8081\
 &nbsp;
 #### inspect-frontend
 no envs
