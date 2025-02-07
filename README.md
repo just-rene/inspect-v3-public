@@ -52,14 +52,13 @@ MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
 - (example config) \
 --env=CORS_PATTERN=http://localhost:8080 \
 --env=CRED_PASS=123 \
---env=CRED_USER=ft \ 
+--env=CRED_USER=ft \
 --env=HUGGINGFACE_TOKEN=1231123 \
---env=MONGO_DB_HOST=172.17.0.2 \ 
+--env=MONGO_DB_HOST=172.17.0.2 \
 -p 8081:8081 \
 &nbsp;
 #### inspect-frontend
 no envs \
-
 - (example config) \
 -p 8080:8080 \
 &nbsp;
@@ -69,9 +68,9 @@ MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
 D_SERVER_URI &rarr; this is the uri of the discovery server \
 
 - (example config) \
---env=POLYGON_API_TOKEN=123 \ 
---env=MONGO_DB_HOST=172.17.0.2 \ 
---env=D_SERVER_URI=http://172.17.0.2:8761/eureka/ \ 
+--env=POLYGON_API_TOKEN=123 \
+--env=MONGO_DB_HOST=172.17.0.2 \
+--env=D_SERVER_URI=http://172.17.0.2:8761/eureka/ \
 -p 8100:8100 \
 &nbsp;
 
@@ -80,8 +79,8 @@ MONGO_DB_HOST &rarr; mongo db is accessed via this uri \
 D_SERVER_URI &rarr; this is the uri of the discovery server \
 
 - (example config) \
---env=MONGO_DB_HOST=172.17.0.3 \ 
---env=D_SERVER_URI=http://172.17.0.2:8761/eureka/ \ 
+--env=MONGO_DB_HOST=172.17.0.3 \
+--env=D_SERVER_URI=http://172.17.0.2:8761/eureka/ \
 -p 8200:8200 \
 &nbsp;
 
