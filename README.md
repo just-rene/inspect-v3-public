@@ -10,7 +10,7 @@ INSPECT is a sentiment and NER extraction tool!
 - all parameter for application.properties can now be set via **env vars** in the docker containers
 - decoupling via **Kafka** Message Broker started (preview)
 
-### Features
+## Features
 
 #### STOCK SENTIMENT CORRELATION (NEW)
 computes correlation between sentiment and stock data
@@ -36,7 +36,7 @@ cluster multiple topics to one umbrella term and track the sentiment over time
 ![sentiment_by](./Screenshots/followed_topic_2.PNG)
 
 
-### Setup
+## Setup
 
 #### inspect-backend 
 CORS_PATTERN &rarr; allowes frontend to request data from backend \
