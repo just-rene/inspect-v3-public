@@ -1,7 +1,7 @@
 # INSPECT 
 INSPECT is a sentiment and NER extraction tool!
 
-New Features 3.0:
+## New Features 3.0:
 - full **Docker** setup
 - project now uses (mostly) **reactive** programming 
 - stock data collection &rarr; collects **stock data** from polygon
@@ -9,10 +9,6 @@ New Features 3.0:
 - new modules are added as **independent services** in its own Docker containers
 - all parameter for application.properties can now be set via **env vars** in the docker containers
 - decoupling via **Kafka** Message Broker started (preview)
-
-### Preliminary remarks
-1) all webscrapper have been removed for legal reasons 
-1) inspect is designed for single user, therefore the inputs are not validated
 
 ### Features
 
@@ -96,5 +92,9 @@ you need to pull: [mongodb/mongodb-community-server:6.0.16-ubi9](https://hub.doc
 you need to pull: [apache/kafka:latest](https://hub.docker.com/r/apache/kafka)
 #### APIs: 
 Huggingface account (API-key), [Huggingface](https://huggingface.co/) <img src="./Screenshots/huggingface.svg" width="20">  
-polygon account (API-key)  [Polygon](https://polygon.io/)    <img src="./Screenshots/polygon.png" width="20"> 
+polygon account (API-key)  [Polygon](https://polygon.io/)    <img src="./Screenshots/polygon.png" width="20">
+
+### remarks
+1) all webscrapper have been removed for legal reasons 
+1) inspect is designed for single user, therefore the inputs are not validated
 
