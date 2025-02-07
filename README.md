@@ -18,7 +18,7 @@ New Features 3.0:
 
 #### STOCK SENTIMENT CORRELATION (NEW)
 computes correlation between sentiment and stock data
-![emotion_filter](./Screenshots/stock_sentiment_correlation.png)
+![stock_sentiment_correlation](./Screenshots/stock_sentiment_correlation.PNG)
 
 
 #### EMOTION FILTER
