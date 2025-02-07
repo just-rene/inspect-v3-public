@@ -1,0 +1,8 @@
+package io.ft.stock_market_data_processing.stock_market_data_processing.repositories;
+
+import io.ft.stock_market_data_processing.stock_market_data_processing.entities.SentimentDayAccumulatedCacheObject;
+import io.ft.stock_market_data_processing.stock_market_data_processing.entities.Subscription;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface SentimentDayAccumulatedCache extends MongoRepository<SentimentDayAccumulatedCacheObject, Long> {
+}
